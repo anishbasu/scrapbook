@@ -1,0 +1,15 @@
+#navpane{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+#content{
+	display: block;
+	height: auto;
+	width: 90%;
+	padding: 5%;
+}
+#navpane #footer{
+	position: relative;
+	height: auto;
+}
