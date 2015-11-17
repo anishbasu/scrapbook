@@ -29,7 +29,7 @@ Navigation Pane Stuff
 }
 #navpane li:hover{
 	background-color: #56B2BC;
-	color: #003326;
+	color: #101B30;
 	font-weight: 400;
 }
 #navpane li a{
@@ -69,30 +69,19 @@ Content Pane Stuff
 	
 }
 #content hr{
-	border-style: solid none none none;
-	border-color: #2C2723;
+	border-style: dashed none none none;
+	border-color: #625648;
 }
 
 #content a{
 	background-color: #FCE561;
 	padding: 2px 3px 2px 3px;
 	text-decoration: none;
+	color: #2C2723;
 }
 #content p{
 	text-indent: 4em;
 	line-height: 200%;
-}
-/*
- Google Maps Integration
-*/
-.overlay {
-   background:transparent; 
-   position:relative; 
-   width:100%;
-   height:300px; /* your iframe height */
-   top:300px;  /* your iframe height */
-   margin-top:-300px;  /* your iframe height */
-   z-index: 2;
 }
 /*
 	Global Stuff

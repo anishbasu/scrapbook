@@ -1,4 +1,8 @@
 $(document).ready(function(){
+$.ajaxSetup ({
+    // Disable caching of AJAX responses
+    cache: false
+});
 //Load Initial page
 $.get('intro.html', function(data){
 	$('#content').html(data)
@@ -23,4 +27,6 @@ $('#navpane a').click(
 	return false;
 	}
 );
+
+$('#content .gmaps').off();
 });
