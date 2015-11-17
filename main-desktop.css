@@ -1,3 +1,8 @@
+/*
+
+Navigation Pane Stuff
+
+*/
 #navpane{
 	position: fixed;
 	display: block;
@@ -32,17 +37,7 @@
 	text-decoration: none;
 	font-weight: inherit;
 }
-#content{
-	display: block;
-	float: right;
-	width: 69%;
-	padding: 20px 3% 0 3%;
-	font-weight: 300;
-	
-}
-.vfill{
-	height: 82.5%;
-}
+
 #navpane a{
 	color: inherit;
 	text-decoration: none;
@@ -54,6 +49,42 @@
 	border-style: solid none none none;
 	border-color: white;
 }
+.nav-pad{
+	padding: 10px 10px 10px 10px;
+}
+.vfill{
+	height: 82.5%;
+}
+
+/*
+Content Pane Stuff
+*/
+#content{
+	display: block;
+	float: right;
+	width: 69%;
+	padding: 20px 3% 0 3%;
+	font-weight: 300;
+	font-size: 18px;
+	
+}
+#content hr{
+	border-style: solid none none none;
+	border-color: #2C2723;
+}
+
+#content a{
+	background-color: #FCE561;
+	padding: 2px 3px 2px 3px;
+	text-decoration: none;
+}
+#content p{
+	text-indent: 4em;
+	line-height: 200%;
+}
+/*
+ Google Maps Integration
+*/
 .overlay {
    background:transparent; 
    position:relative; 
@@ -63,9 +94,9 @@
    margin-top:-300px;  /* your iframe height */
    z-index: 2;
 }
-.nav-pad{
-	padding: 10px 10px 10px 10px;
-}
+/*
+	Global Stuff
+*/
 
 body, html {
   height: 100%;
