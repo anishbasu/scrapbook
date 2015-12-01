@@ -22,11 +22,14 @@ $('#navpane a').click(
 				url: $(this).attr('href'),
 				success: function(response) {
 					$('#content').html(response);
+					$('<div class="overlay"></div>').insertBefore('#content iframe');
 				}
 		})
 	return false;
 	}
 );
+$('#content .overlay').click(function(){
+$(this).removeClass('overlay');
+});
 
-$('#content .gmaps').off();
 });

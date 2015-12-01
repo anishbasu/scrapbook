@@ -83,6 +83,15 @@ Content Pane Stuff
 	text-indent: 4em;
 	line-height: 200%;
 }
+
+.overlay {
+background:transparent; 
+position:relative; 
+width:100%px;
+height:300px; /* your iframe height */
+top:300px;  /* your iframe height */
+margin-top:-300px;  /* your iframe height */
+}
 /*
 	Global Stuff
 */
